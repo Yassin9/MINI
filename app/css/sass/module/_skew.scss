@@ -1,0 +1,15 @@
+.skew {
+	&:before,&:after {
+		content: "";
+		background-color: #fff;
+		height: 100px;
+		width: 100%;
+		display: block;
+		transform: skewY(-2deg);
+		transform-origin: left 0;
+	}
+	&:after {
+		transform-origin: right 0;
+	}
+	
+}

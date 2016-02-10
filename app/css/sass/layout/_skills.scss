@@ -1,0 +1,22 @@
+.skills {
+	text-align: left;
+	
+	& img {
+		float: left;
+		margin-left: 25px;
+	}
+}
+
+.skills-content {
+	overflow: hidden;
+	float: right;
+	width: 560px;
+	
+	& .li_params { float: left; }
+
+	& h2, p {
+		margin-left: 160px;
+	}
+
+	& h2 { margin-top: -6px; }
+}

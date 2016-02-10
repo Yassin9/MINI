@@ -1,0 +1,31 @@
+.about {
+	text-align: left;
+}
+
+.about-content {
+	margin-left: 30px;
+	width: 500px;
+	line-height: 28px;
+  	display: inline-block;
+  
+	& h2 {
+		margin-top: -6px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	& p:first-of-type {
+		color: #e74c3c;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	& p {
+		margin-bottom: 0;
+	}
+}
+
+.about-img {
+	float: right;
+	width: 450px;
+}

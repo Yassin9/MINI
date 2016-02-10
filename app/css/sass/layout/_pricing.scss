@@ -1,0 +1,106 @@
+.pricing-content {
+	float: left;
+	text-align: left;
+	width: 320px;
+}
+
+.pricing-table {
+	float: right;
+	width: 750px;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: $text-color;
+	margin-bottom: 20px;
+
+	& tr { border: 1px solid #e6e6e6; }
+
+	& tr {
+		&:nth-child(2n+1) { background-color: #fafafa; }
+		&:nth-child(2n) .gold { background-color: #f2f2f2; }
+	}
+
+	& strong:after  {
+		content:"";
+		display: block;
+		height: 2px;
+		width: 50px;
+		margin: 6px auto;
+		background-color: $primary-color;
+	}
+
+	& .gold {
+		background-color: #e6e6e6;
+		& strong:after  { background-color: $color; }
+	}
+
+	& .basic, .gold { width: 250px; }
+
+	& thead {
+		font-size: 22px;
+		color: $header-color;
+	}
+
+	& thead .basic {
+		height: 120px;
+		background-color: #fff;
+	}
+
+	& thead .gold {
+		position: relative;
+		display: inline-block;
+		height: 120px;
+		padding-top: 15px;
+		color: $color;
+		background-color: $primary-color;
+		
+		&:before {
+			content:"";
+			position: absolute;
+			top: -16px;
+			display: block;
+			width: 250px;
+			height: 16px;
+			background-color: $primary-color;
+		}
+	}
+	
+	& tbody td {
+		text-transform: capitalize;
+		font-size: 15px;
+		height: 50px;
+	}
+	
+	& tfoot .basic {
+		height: 100px;
+		background-color: #fafafa;
+	}
+
+	& tfoot .gold {
+		background-color: #e6e6e6;
+		position: relative;
+		display: inline-block;
+		height: 120px;
+
+		&:after {
+			content:"";
+			position: absolute;
+			bottom: -10px;
+			display: block;
+			width: 250px;
+			height: 10px;
+			background-color: #e6e6e6;
+		}
+	}
+
+	& .btn {
+		width: 130px;
+		height: 40px;
+		padding: 8px 0;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 14px;
+		display: inline-block;
+	}
+
+	& .gold .btn { margin-top: 40px; }
+}

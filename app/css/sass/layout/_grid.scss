@@ -1,0 +1,6 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	@include clearfix;
+	background: url('../img/columns.png') top center no-repeat;
+}

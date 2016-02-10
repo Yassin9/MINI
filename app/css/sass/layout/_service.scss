@@ -1,0 +1,23 @@
+
+.service {
+	display: inline-block;
+	width: 33%;
+	padding: 0 9px;
+
+	&:first-child { padding-left: 0; }
+
+	&:last-child { padding-right: 0; }
+
+	& .icon {
+		width: 105px;
+		height: 105px;
+		line-height: 105px;
+		font-size: 27px;
+		transition: all .4s;
+	}
+
+	&:hover .icon {
+		background-color: $primary-color;
+		color: $color;
+	}
+}

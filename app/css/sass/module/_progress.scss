@@ -1,4 +1,4 @@
-.progress {
+.wrap-progress {
 	width: 560px;
 	float: right;
 	margin-top: 20px;
@@ -9,6 +9,7 @@
 	text-transform: uppercase;
 	font-weight: 300;
 	margin: 0 0 10px 0;
+	
 	& strong {
 		font-weight: 600;
 	}

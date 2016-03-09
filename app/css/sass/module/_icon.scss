@@ -1,13 +1,58 @@
-.icon {
-	border: 2px solid $primary-color;
-	border-radius: 50%;
-	display: inline-block;
+.icon-cercle {
+	@include icon-cercle(2, $primary-color, 125);
 	font-size: 40px;
-	text-align: center;
 	color: #000;
-	font-style: normal;
-	vertical-align: top;
-	width: 125px;
-	height: 125px;
-	line-height: 125px;
 }
+
+.icon{display: inline-block;}
+
+// icon section teams
+
+.icon-twitter {
+	@include sprite($twitter);
+	&:hover { @include sprite($twitter-hover); }
+}
+.icon-facebook {
+	@include sprite($facebook);
+	&:hover { @include sprite($facebook-hover); }
+}
+.icon-dribbble {
+	@include sprite($dribbble);
+	&:hover { @include sprite($dribbble-hover); }
+}
+.icon-google {
+	@include sprite($google);
+	&:hover { @include sprite($google-hover); }
+}
+.icon-linkedin {
+	@include sprite($linkedin);
+	&:hover { @include sprite($linkedin-hover); }
+}
+
+.icon-pinterest {
+	@include sprite($pinterest);
+	&:hover { @include sprite($pinterest-hover); }
+}
+
+.icon-rss {
+	@include sprite($rss);
+	&:hover { @include sprite($rss-hover); }
+}
+
+// icon section Blog
+
+.icon-slideshow2 {@include sprite($slideshow2);}
+.icon-slideshow {@include sprite($slideshow);}
+.icon-film{@include sprite($film);}
+.icon-handset{@include sprite($handset);}
+
+// icon section Contact
+
+.icon-mail{@include sprite($mail);}
+.icon-location{@include sprite($location);}
+.icon-phone{@include sprite($phone);}
+
+.chevron-left{@include sprite($chevron-left);}
+.chevron-right{@include sprite($chevron-right);}
+.cross{@include sprite($cross);}
+.icon-top{@include sprite($top);}

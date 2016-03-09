@@ -1,0 +1,41 @@
+.contact-form{
+  float: left;
+  width: 620px;
+  text-align: left;
+  position: relative;
+  margin-right: 60px;
+  h2{margin-bottom: 35px;}
+}
+
+.icon-form{
+  position: absolute;
+  top: 83px;
+  right: 26px;
+}
+
+.email-icon{
+  top: 131px;
+}
+
+.message-icon{
+  top: 180px;
+}
+
+.contact-info{
+  float: left;
+  width: 490px;
+  text-align: left;
+  
+  h2{margin-bottom: 28px;}
+
+  li{
+    color: $header-color;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+  }
+
+  .wrap{
+    @include icon-cercle(2, $primary-color, 33);
+    margin-right: 22px;
+  }
+}

@@ -1,0 +1,34 @@
+.fact {
+  width: 170px;
+  font-weight: 700;
+  color: $color;
+  font-size: 25px;
+  float: left;
+  margin-left: 163.33px;
+  
+  &:first-child {
+    margin-left: 0;
+  }
+  
+  .icon-cercle {
+    @include icon-cercle(2, $primary-color, 170);
+    color: $color;
+    font-size: 1.5em;
+    transition-duration: .4s;
+  }
+
+  &:hover {
+    .icon-cercle {
+      border: 2px solid $color;
+      color: $primary-color;
+    }
+  }
+
+  strong {
+    font-size: 45px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+}
+
+

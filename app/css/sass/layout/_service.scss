@@ -8,15 +8,13 @@
 
 	&:last-child { padding-right: 0; }
 
-	& .icon {
-		width: 105px;
-		height: 105px;
-		line-height: 105px;
+	.icon-cercle {
+		@include icon-cercle(2, $primary-color, 105);
 		font-size: 27px;
 		transition: all .4s;
 	}
 
-	&:hover .icon {
+	&:hover .icon-cercle {
 		background-color: $primary-color;
 		color: $color;
 	}

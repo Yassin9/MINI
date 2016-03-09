@@ -1,33 +1,27 @@
 .header {
-	background: url('../img/bg.jpg') center top no-repeat fixed;
-	padding: 100px 0;
+	padding-top: 40px;
+	padding-bottom: 100px;
 }
 
 .header-logo {
+	@include icon-cercle(2, $color, 150);
 	float: left;
-	width: 150px;
-	height: 150px;
 	font-family: Montserrat, Open Sans;
-	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 45px;
-	border: 2px solid #fff;
-	border-radius: 50%;
-	line-height: 140px;
 	color: $color;
 }
 
-.menu {
-	margin-bottom: 180px;
+#menu {
+	margin-bottom: 0px;
 	float: right;
-  	margin-top: 30px;
+  	margin-top: 60px;
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: -0.06em;
-	line-height: 80px;
-	&-item {
-		transition: color .4s;
+	.menu-item {
+		transition-duration: .4s;
 		&:hover {
 			color: $header-color;
 		}
@@ -43,6 +37,7 @@
 .banner {
 	text-transform: uppercase;
 	color: $color;
+	margin: 100px 0 60px;
 }
 
 .banner-light {
@@ -50,6 +45,7 @@
 	font-weight: 300;
 	line-height: 60px;
 	letter-spacing: 0.2em;
+	
 	&-2 {
 		font-size: 40px;
 		letter-spacing: -0.03em;
@@ -60,6 +56,7 @@
 }
 
 .banner-bold {
+	font-family: Open Sans;
 	font-size: 70px;
 	font-weight: 700;
 	line-height: 80px;
@@ -70,5 +67,6 @@
 	border-color: $color;
 	color: $color;
 	padding: 13px 40px;
+	
 	&:hover {border-color: $primary-color;}
 }

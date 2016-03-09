@@ -1,6 +1,6 @@
 .testimonial{
 	
-	& h2 {
+	h2 {
 		font-size: 24px;
 		font-weight: 700;
 		color: $color;
@@ -15,7 +15,7 @@
 	    }
 	}
 
-	& p {
+	p {
 		font-size: 22px;
 		font-weight: 300;
 		font-style: italic;
@@ -25,11 +25,11 @@
 		margin: 30px auto;
 	}
 
-	& .carousel div img {
+	#owl-testimonial div img {
 		width: 100px;
 		height: 100px;
 		display: inline-block;
-		margin-bottom: 15px;
+		margin-bottom: 28px;
 	}
 }
 

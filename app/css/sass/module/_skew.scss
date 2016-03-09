@@ -1,5 +1,6 @@
 .skew {
-	&:before,&:after {
+	&:before,
+	&:after {
 		content: "";
 		background-color: #fff;
 		height: 100px;
@@ -7,6 +8,8 @@
 		display: block;
 		transform: skewY(-2deg);
 		transform-origin: left 0;
+		position: relative;
+		z-index: 100;
 	}
 	&:after {
 		transform-origin: right 0;

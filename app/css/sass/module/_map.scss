@@ -1,0 +1,18 @@
+#googleMap {
+    height:560px;
+}
+.gm-style-iw * {
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+.gm-style-iw h4, .gm-style-iw p {
+
+    width: auto;
+    color: $header-color;
+    margin: 0;
+    padding: 0;
+}
+.gm-style-iw a {
+    color: #4272db;
+}

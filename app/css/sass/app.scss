@@ -1,9 +1,10 @@
 @import "base/normalize";
 @import "base/variables";
 @import "tools/clearfix";
+@import "tools/icon-cercle";
 @import "tools/font-icon";
-@import "tools/Owl Carousel/owl.carousel";
-@import "tools/Owl Carousel/theme";
+// @import "tools/Owl Carousel/owl.carousel";
+// @import "tools/Owl Carousel/theme";
 
 
 @import "base/base";
@@ -13,14 +14,18 @@
 =            Modules            =
 ===============================*/
 
+@import "module/background";
 @import "module/sprite";
-@import "module/quote";
 @import "module/skew";
 @import "module/btn";
 @import "module/heading";
 @import "module/icon";
 @import "module/progress";
-@import "module/fact";
+@import "module/top";
+@import "module/forms";
+@import "module/map";
+@import "module/owl-theme";
+@import "module/animate";
 
 /*===============================
 =            layout             =
@@ -29,8 +34,15 @@
 @import "layout/header";
 @import "layout/about";
 @import "layout/skills";
+@import "layout/quote";
 @import "layout/team";
+@import "layout/fact";
 @import "layout/service";
 @import "layout/pricing";
 @import "layout/testimonial";
 @import "layout/work";
+@import "layout/tweet";
+@import "layout/blog";
+@import "layout/clients";
+@import "layout/contact";
+@import "layout/footer";

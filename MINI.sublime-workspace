@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"trigg",
+				"triggerElement"
+			],
+			[
+				"com",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"co",
+				"comm-block	Comment - Block style comment"
+			],
+			[
+				"goog",
+				"googleMap"
+			],
+			[
+				"i",
+				"i	<i>"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"lab",
+				"label	Tag"
+			],
+			[
+				"la",
+				"label	<label>"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"tex",
+				"textarea	Tag"
+			],
+			[
+				"form",
+				"form	<form>"
+			],
+			[
+				"input",
+				"inputs	input - submit"
+			],
+			[
+				"inp",
+				"inputi	input - image"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"cl",
+				"click〔function〕"
+			],
+			[
+				"item",
+				"item.jpg	w:563 h:435"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
 				"vab",
 				"va-tb	vertical-align: text-bottom;"
 			],
@@ -52,10 +124,6 @@
 				"d:ib	display:inline-block"
 			],
 			[
-				"com",
-				"comm-html	Comment - HTML comment"
-			],
-			[
 				"blockquote",
 				"blockquote	Tag"
 			],
@@ -68,16 +136,8 @@
 				"pos:r	position:relative"
 			],
 			[
-				"b",
-				"be	:before"
-			],
-			[
 				"fl",
 				"fl:l	float:left"
-			],
-			[
-				"co",
-				"comm-html	Comment - HTML comment"
 			],
 			[
 				"comm-",
@@ -116,10 +176,6 @@
 				"z	z-index"
 			],
 			[
-				"i",
-				"inline-table"
-			],
-			[
 				"sidebar",
 				"sidebar_two"
 			],
@@ -142,10 +198,6 @@
 			[
 				"var",
 				"var〔keyword〕"
-			],
-			[
-				"fun",
-				"fun	Function"
 			],
 			[
 				"s",
@@ -196,20 +248,12 @@
 				"section	<section>"
 			],
 			[
-				"a",
-				"a	Tag"
-			],
-			[
 				"hea",
 				"header	<header>"
 			],
 			[
 				"bdrs",
 				"bdrs	border-radius"
-			],
-			[
-				"input",
-				"inputs	input - submit"
 			],
 			[
 				"inputt",
@@ -227,39 +271,26 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14023,
+				"buffer_size": 25656,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"contents": "$(document).ready(function() {\n/*=============================================\n=            	  ScrollMagic 	  	          =\n=============================================*/\n\n// init controller\nvar controller = new ScrollMagic.Controller();\n\n// build tween\n// var tweenfadeUp = new TweenMax.from(\n// 				\".fadeUp\", 0.5, {\n// 				top: 200,\n// 				opacity: 0,\n// 				scale: 0.5,\n// 				ease:Power1.easeNone\n// 				});\n\n// var tweenfadeDown = new TweenMax.from(\n// 				\".fadeDown\", 1, {\n// 				bottom: 200,\n// 				opacity: 0,\n// 				scale: 0.5,\n// 				ease:Power1.easeNone\n// 				});\n\n// var tweenfadeLeft = new TweenMax.from(\n// 				\".fadeLeft\", 1, {\n// 				left: 200,\n// 				opacity: 0,\n// 				scale: 0.5,\n// 				ease:Power1.easeNone\n// 				});\n\n// var tweenfadeRight = new TweenMax.from(\n// 				\".fadeRight\", 1, {\n// 				right: 200,\n// 				opacity: 0,\n// 				scale: 0.5,\n// 				ease:Power1.easeNone\n// 				});\n\n\n// build scene about\nvar tweenAbout = new TweenMax.from(\".about\", 1, { opacity: 0, scale: 0.7, ease: Bounce.easeOut });\n\nvar scene = new ScrollMagic.Scene({\n	triggerElement: \".about\"\n})\n.setTween(tweenAbout)\n.addIndicators()\n.addTo(controller);\n// End of scene\n\n\n// build scene skills\nvar tweenSkills = new TimelineMax();\ntweenSkills.from(\".skills-img\", 1, { opacity: 0, y: 100, ease: Bounce.easeOut })\n	.from(\".skills-content\", 1, { opacity: 0, scale: 0.8, ease: Bounce.easeOut }, \"-=1\")\n	.from(\".progress\", 1, { width: \"0%\", ease: Power4.easeOut }, \"-=0.5\");\n\nvar scene = new ScrollMagic.Scene({\n	triggerElement: \".skills\"\n})\n.setTween(tweenSkills)\n.addIndicators()\n.addTo(controller);\n// End of scene\n\n// build scene background\nvar tweenbackground = new TimelineMax ()\ntweenbackground.to(\".background\", 1, {backgroundPosition: \"center -100px\"} );\n\n// var background = [\"'.header'\", \"'.quote'\", \"'.facts'\", \"'.testimonial'\", \"'.tweet'\", \"'.clients'\"];\nvar background = [\"#top\", \"#quote\"];\n\nbackground.forEach(function (bg, i) {\n\n    var headerScene = new ScrollMagic.Scene({\n        triggerElement: bg,\n        duration: \"100%\"\n    })\n    .setTween(tweenbackground)\n    .addIndicators()\n    .addTo(controller);\n    \n});\n\n\n\n\n\n// End of scene\n\n/*=====  End of Section ScrollMagic	   ======*/\n});\n",
+			"file": "app/js/scroll.js",
+			"file_size": 2302,
+			"file_write_time": 131019999937558376,
 			"settings":
 			{
-				"buffer_size": 624,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/js/app.js",
-			"settings":
-			{
-				"buffer_size": 441,
+				"buffer_size": 2205,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gulpfile.js",
+			"file": "app/css/sass/module/_background.scss",
 			"settings":
 			{
-				"buffer_size": 2920,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/css/sass/layout/_work.scss",
-			"settings":
-			{
-				"buffer_size": 1391,
+				"buffer_size": 215,
 				"line_ending": "Windows"
 			}
 		}
@@ -271,20 +302,44 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 347.0,
-		"last_filter": "in",
+		"height": 284.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pc",
+				"Package Control: Remove Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
 			],
 			[
 				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"Package Control: ",
 				"Package Control: Remove Package"
 			],
 			[
@@ -298,10 +353,6 @@
 			[
 				"tside",
 				"View: Toggle Side Bar"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"synsass",
@@ -338,10 +389,6 @@
 			[
 				"LiveReload: Enable/disable plugins",
 				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"p",
-				"Package Control: Install Package"
 			],
 			[
 				"mark",
@@ -408,9 +455,12 @@
 	},
 	"console":
 	{
-		"height": 119.0,
+		"height": 645.0,
 		"history":
 		[
+			"cd C:/",
+			"cd C:\\",
+			"pwd",
 			"gulp",
 			"node-sass",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -427,143 +477,138 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Yassine/Desktop/MINI",
-		"/C/Users/Yassine/Desktop/MINI/app",
-		"/C/Users/Yassine/Desktop/MINI/app/css",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/Owl Carousel"
+		"/D/MINI/app"
 	],
 	"file_history":
 	[
-		"/C/Users/Yassine/Desktop/MINI/node_modules/node-sass/src/libsass/Readme.md",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/node-sass/README.md",
-		"/C/Users/Yassine/Desktop/gulp-starter-csstricks-master/gulpfile.js",
-		"/C/Users/Yassine/Desktop/gulp-starter-csstricks-master/node_modules/browser-sync/CHANGELOG.md",
-		"/C/Users/Yassine/Desktop/gulp-starter-csstricks-master/package.json",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.719/gulpfile.js",
-		"/C/Users/Yassine/.babel.json",
-		"/C/Users/Yassine/Desktop/MINI/package.json",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/base/_base.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/index.html",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.525/Gruntfile.js",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.808/package.json",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.466/bower.json",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/Owl Carousel/_theme.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/js/app.js",
-		"/C/Users/Yassine/Desktop/MINI/Gulpfile.js",
-		"/C/Users/Yassine/Desktop/grayscale-sass-master/Gulpfile.js",
-		"/C/Users/Yassine/AppData/Local/Temp/Laptop-Yassine/bower/bootstrap-3008-aJAf6V/README.md",
-		"/C/Users/Yassine/AppData/Local/Temp/Laptop-Yassine/bower/bootstrap-3008-aJAf6V/package.json",
-		"/C/Users/Yassine/Desktop/grayscale-sass/package.json",
-		"/C/Users/Yassine/Desktop/grayscale-sass/README.md",
-		"/C/Users/Yassine/Desktop/grayscale-sass-master/package.json",
-		"/C/Users/Yassine/Desktop/startbootstrap-gh-pages/Gemfile",
-		"/C/Users/Yassine/Desktop/startbootstrap-gh-pages/Gemfile.lock",
-		"/C/Users/Yassine/Desktop/startbootstrap-gh-pages/_config.yml",
-		"/C/Users/Yassine/Desktop/startbootstrap-gh-pages/search_data.json",
-		"/C/Users/Yassine/Desktop/jekyll-master/README.markdown",
-		"/C/Users/Yassine/Desktop/startbootstrap-gh-pages/README.md",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.504/bootstrap.css",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DRa0.889/Free/Free/index.html",
-		"/C/Users/Yassine/Desktop/bootbundle_f_1_4/snippets/README.md",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/app.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/Owl Carousel/_owl.theme.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_grid.scss",
-		"/C/Users/Yassine/Desktop/learn/Gulpfile.js",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/dist/owl.carousel.js",
-		"/C/Users/Yassine/Desktop/MINI/app/owlcarousel/owl.carousel.js",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/js/owl.navigation.js",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/scss/_theme.scss",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/scss/owl.theme.green.scss",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/scss/owl.theme.default.scss",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/scss/owl.carousel.scss",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/src/scss/owl.animate.scss",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/_config.json",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/README.md",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/bower.json",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.899/owl.carousel.js",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_testimonial.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/owlcarousel/owl.carousel.min.css",
-		"/C/Users/Yassine/Desktop/MINI/app/css/app.css",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_fact.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_quote.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_icon.scss",
-		"/C/Users/Yassine/Desktop/MINI/PSD/Documentation/assets/blueprint-css/screen.css",
-		"/C/Users/Yassine/Desktop/MINI/PSD/Documentation/assets/blueprint-css/src/grid.css",
-		"/C/Users/Yassine/Desktop/MINI/PSD/Documentation/assets/blueprint-css/src/forms.css",
-		"/C/Users/Yassine/Desktop/OwlCarousel2-master/package.json",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_header.scss",
-		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Yassine/Desktop/phpacademy.txt",
-		"/C/Users/Yassine/Desktop/favoris_11_01_2016.html",
-		"/C/Users/Yassine/Desktop/responsive/package.json",
-		"/C/Users/Yassine/Desktop/responsive/builds/production/index.html",
-		"/C/Users/Yassine/Desktop/responsive/package1.json",
-		"/C/Users/Yassine/Desktop/responsive-master/package.json",
-		"/C/Users/Yassine/Desktop/responsive-master/README.md",
-		"/C/Program Files (x86)/Telerik/Kendo UI Professional Q3 2015/src/package.json",
-		"/C/Users/Yassine/Desktop/zurb/yass/gulpfile.js",
-		"/C/Users/Yassine/Desktop/DevTips-Starter-Kit-master/brackets.json",
+		"/D/MINI/app/css/sass/module/_animate.scss",
+		"/D/MINI/app/js/app.js",
+		"/C/Users/Yassine/Desktop/Tubemat2/Mécanique Quantique/Mécanique Quantique 12 (les Opérateurs).mp4",
+		"/D/MINI/app/css/app.css",
+		"/D/MINI/Gulpfile.js",
+		"/D/MINI/app/css/sass/module/_skew.scss",
+		"/D/MINI/app/css/sass/layout/_grid.scss",
+		"/D/MINI/app/css/sass/app.scss",
+		"/D/MINI/app/css/sass/layout/_about.scss",
+		"/D/MINI/app/css/sass/module/_icon.scss",
+		"/D/MINI/app/css/sass/module/_heading.scss",
+		"/D/MINI/app/css/sass/layout/_header.scss",
+		"/D/MINI/package.json",
+		"/D/MINI/node_modules/jpegtran-bin/package.json",
+		"/D/MINI/node_modules/jpegtran-bin/readme.md",
+		"/D/MINI/app/css/sass/base/_base.scss",
+		"/D/MINI/app/css/sass/layout/_skills.scss",
+		"/D/MINI/app/js/TweenLite.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.735/EasePack.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.190/EasePack.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.601/TweenLite.min.js",
+		"/D/MINI/app/css/sass/module/_top.scss",
+		"/D/MINI/app/css/sass/module/_progress.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.482/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.688/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DRa0.941/Parallex/index.html",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.389/default.js",
+		"/C/Users/Yassine/Desktop/HTML/js/script.js",
+		"/C/Users/Yassine/Desktop/HTML/js/ScrollToPlugin.min.js",
+		"/D/MINI/app/css/sass/module/_owl-theme.scss",
+		"/C/Users/Yassine/Downloads/WebDesign/Framework/animate.css",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/demo.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/lib/greensock/TimelineMax.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/lib/greensock/jquery.gsap.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/examples.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.962/ScrollToPlugin.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/scrollmagic/uncompressed/plugins/animation.gsap.js",
+		"/D/MINI/app/js/animation.gsap.min.js",
+		"/D/MINI/app/css/sass/layout/_testimonial.scss",
+		"/C/Users/Yassine/Desktop/simple-scrollmagic-tutorial/js/index.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/index.html",
+		"/D/MINI/app/js/TweenMax.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.666/jquery.gsap.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/gulpfile.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js",
+		"/C/Users/Yassine/Desktop/jquery.localScroll-1.4.0/demo/index.html",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/gulpfile.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/package.json",
+		"/C/Users/Yassine/Desktop/main.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-demos-class-toggles/js/plugins/animation.gsap.min.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/init.js",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/themes/awesome-media-gallery/admin/application/views/mokoala-default/themes/matt_lowden/css/reset.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/themes/awesome-media-gallery/admin/application/views/mokoala-default/themes/amg/css/reset.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/plugins/masterslider/admin/views/slider-panel/css/reset.css",
+		"/H/Formation/Tuto English/Lynda/Lynda - Advanced Responsive Layouts with CSS Flexbox/Exercise Files/Chapter_06/06_final/CSS/reset.css",
+		"/C/Users/Yassine/Desktop/Plasma/HTML/js/jquery.scrollNav.js",
+		"/C/Users/Yassine/Desktop/jquery.localScroll-1.4.0/jquery.localScroll.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.236/jquery.localScroll.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.486/bower.json",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.793/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.633/package.json",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/ui-plugins.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/helper-plugins.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/index.html",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/style.css",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.991/main.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/animations.css",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/custom.css",
+		"/D/MINI/app/css/sass/layout/_blog.scss",
+		"/D/MINI/app/css/sass/module/_btn.scss",
+		"/D/MINI/app/css/sass/layout/_work.scss",
+		"/D/MINI/app/owl-carousel/owl.carousel.js",
+		"/C/Users/Yassine/Desktop/owl.carousel/owl-carousel/owl.transitions.css",
+		"/C/Users/Yassine/Desktop/owl.carousel/demos/one.html",
+		"/D/MINI/app/owl-carousel/owl.carousel.css",
+		"/D/MINI/app/css/sass/tools/Owl Carousel/_theme.scss",
+		"/C/Users/Yassine/Desktop/owl.carousel/owl-carousel/owl.carousel.js",
+		"/D/MINI/app/img/chevron-right.svg",
+		"/C/Users/Yassine/Desktop/owl.carousel/assets/js/application.js",
+		"/D/MINI/app/css/sass/module/_map.scss",
+		"/D/MINI/app/css/sass/base/_variables.scss",
+		"/D/MINI/app/css/sass/layout/_footer.scss",
+		"/C/Users/Yassine/Desktop/Ghost/package.json",
+		"/D/MINI/app/css/sass/layout/_contact.scss",
+		"/D/MINI/app/css/sass/layout/_team.scss",
+		"/D/MINI/app/css/sass/module/_sprite.scss",
+		"/D/MINI/app/css/sass/layout/_clients.scss",
+		"/D/MINI/app/css/sass/tools/_icon-cercle.scss",
+		"/D/MINI/app/css/sass/layout/_tweet.scss",
+		"/C/Users/Yassine/Desktop/Ghost/README.md",
+		"/D/MINI/app/index.html",
+		"/C/Users/Yassine/Desktop/vagrant/README.md",
+		"/D/MINI/app/css/sass/layout/_service.scss",
+		"/D/MINI/app/css/sass/layout/_fact.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.317/_transition.scss",
+		"/D/MINI/app/css/sass/module/_forms.scss",
+		"/D/MINI/app/css/sass/base/_normalize.scss",
+		"/D/MINI/app/css/sass/layout/_quote.scss",
+		"/D/MINI/app/d",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.968/README.md",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/D/MINI/app/css/sass/module/_tweet.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.992/README.md",
+		"/D/MINI/node_modules/gulp-notify/examples/gulpfile.js",
+		"/D/MINI/node_modules/gulp-notify/examples/jshint.js",
+		"/D/MINI/node_modules/node-notifier/test/terminal-notifier.js",
+		"/D/MINI/node_modules/node-notifier/notifiers/notificationcenter.js",
+		"/D/MINI/node_modules/node-notifier/notifiers/notifysend.js",
+		"/D/MINI/node_modules/node-notifier/example/message.js",
+		"/D/MINI/node_modules/node-notifier/example/advanced.js",
+		"/C/Users/Yassine/Desktop/HTML/odra_agency_multipage/tf_odra_v1.3/odra_portfolio/scripts/all.js",
+		"/D/MINI/MINI.sublime-project",
+		"/C/Users/Yassine/Desktop/HTML/rhythm_v232/www/js/all.js",
+		"/C/Users/Yassine/Desktop/HTML/rhythm_v232/www/index.html",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.746/owl.carousel.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.765/CONTRIBUTING.markdown",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.729/README.markdown",
+		"/C/Users/Yassine/Desktop/grayscale-sass/config.rb",
+		"/C/Users/Yassine/Desktop/grayscale-sass/Gulpfile.js",
 		"/C/Users/Yassine/Desktop/Semantic-UI-Docs-master/README.md",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.866/README.md",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.199/package.json",
-		"/C/Users/Yassine/Desktop/Semantic-UI-Docs-master/package.json",
-		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.582/README.md",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_team.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_skills.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_sprite.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/_font-icon.scss",
-		"/C/Users/Yassine/Downloads/Gulp-Build-and-Gulp-Prod.js",
-		"/C/Users/Yassine/Downloads/Gulpfile.js",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_pricing.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_btn.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/base/_variables.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_service.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/FONT _ HTML _ CSS/style.css",
-		"/C/Users/Yassine/Desktop/MINI/app/FONT _ HTML _ CSS/index.html",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_progress.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/layout/_about.scss",
-		"/C/Users/Yassine/Desktop/index.html",
-		"/C/Users/Yassine/Desktop/style.css",
-		"/C/Users/Yassine/Desktop/MINI/FONT _ HTML _ CSS/index.html",
-		"/C/Users/Yassine/Desktop/MINI/app/css/_font.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/FONT _ HTML _ CSS/lte-ie7.js",
-		"/C/Users/Yassine/Desktop/normalize.css",
-		"/C/Users/Yassine/Desktop/Design-Code/assets/css/0-tools/_normalize.scss",
-		"/C/Users/Yassine/Desktop/jekyll-master/site/_sass/_normalize.scss",
-		"/C/Users/Yassine/Desktop/_normalize.scss",
-		"/H/YouTube/DevTips/How to Build a Responsive Website From Start to Finish/Artists-Theme/assets/css/1-tools/_normalize.scss",
-		"/C/Users/Yassine/Desktop/DevTips-Starter-Kit-master/assets/css/1-tools/_normalize.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_service.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/module/_team.scss",
-		"/C/Users/Yassine/Desktop/elegant_font/HTML CSS/style.css",
-		"/C/Users/Yassine/Desktop/MINI/app/css/font-awesome.min.css",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/base/_typography.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/bourbon/settings/_asset-pipeline.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/bourbon/settings/_px-to-em.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/bourbon/settings/_prefixer.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/neat/settings/_disable-warnings.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/neat/settings/_grid.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/neat/settings/_visual-grid.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/neat/grid/_visual-grid.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/breakpoint/sassy-maps/examples/example.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/breakpoint/sassy-maps/README.md",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/base/_grid-settings.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/base/_buttons.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/base/_variables.scss",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/base/_base.scss",
-		"/H/YouTube/DevTips/How to Build a Responsive Website From Start to Finish/Artists-Theme/README.md",
-		"/C/Users/Yassine/Desktop/MINI/app/css/sass/tools/neat/_neat-helpers.scss",
-		"/C/Users/Yassine/Desktop/MINI/gulpfile.js",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-plumber/package.json",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-sass/package.json",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-jade/package.json",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-sass/CHANGELOG.md",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-plumber/README.md",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp-autoprefixer/package.json",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/gulp/CHANGELOG.md",
-		"/C/Users/Yassine/Desktop/MINI/node_modules/browser-sync/CHANGELOG.md"
+		"/C/Users/Yassine/Desktop/Jade Compass Coffee/Gulpfile.js",
+		"/C/Users/Yassine/Desktop/Semantic-UI-Docs-master/out/dist/components/reset.css",
+		"/C/Users/Yassine/Desktop/Jade Compass Coffee/libsass/package.json",
+		"/C/Users/Yassine/Desktop/Jade Compass Coffee/libsass/Gulpfile.js",
+		"/C/Users/Yassine/Desktop/gulp-test/package.json"
 	],
 	"find":
 	{
@@ -574,6 +619,8 @@
 		"height": 139.0,
 		"where_history":
 		[
+			"D:\\MINI\\app\\owl-carousel",
+			"C:\\Users\\Yassine\\Desktop\\MINI\\app",
 			"C:\\Users\\Yassine\\Desktop\\MINI\\app\\css\\sass",
 			""
 		]
@@ -583,154 +630,110 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"container",
-			"li",
-			"span",
-			"button",
-			"photography",
-			"graphics",
-			"photography",
-			"graphics",
-			"photography",
-			"graphics",
-			"Graphics",
-			"button",
-			"testimonial",
-			" class=\"item\"",
-			"owl-",
-			"style=\"\"",
-			"cloned",
-			"style=\"width: 1170px; margin-right: 0px;\"",
-			"owl-",
-			" style=\"\"",
-			" class=\"item\"",
-			" class=\"\"",
-			"item",
-			"next",
-			"next.owl.carousel",
-			"nav",
-			"owl-",
-			"owl",
-			"item",
-			"Layer.jpg",
-			"class=\"testimonial-img\" ",
-			"pricing",
-			"owl-",
+			".background",
+			"bcg",
+			"slide",
+			"breakSections",
+			"section",
+			"header",
+			"skills",
+			"Skills",
+			"TweenMax",
+			"TweenLite",
+			"ease:Power1.easeNone",
+			"id",
+			"script",
+			"css",
+			"to",
+			"triggerHook",
+			"tween",
+			"1",
+			"50",
+			"20",
 			"min",
-			"code",
-			"url",
-			"PLfdtiltiRHWHmGIHQR9",
-			"icon_",
-			"div",
-			";\n",
+			"owl-slider",
+			"owl-carousel",
+			".scrollToTop",
+			"sticky",
+			"back-to-top",
+			"cross",
+			"module",
+			"dot",
+			"owl",
+			"grabbing",
+			"grabbing.png",
+			"app.css",
+			"css/",
+			"css",
+			"\" + email + \"",
+			"marker",
+			"locations",
+			"email",
+			"layout",
+			"pinterest",
+			"linkedin",
+			"team",
+			"initialize",
 			"icon-",
 			"span",
-			"<i class=\"fa fa-linkedin\"></i>",
-			"<i class=\"fa fa-twitter\">",
-			"div",
-			"green",
-			"div",
+			"location",
+			"handset",
+			"clien",
+			"Rectangle 136",
 			"span",
+			"_hover",
+			"google_hover",
+			"face",
+			"icon ",
 			"icon",
-			"li_",
-			"icon_",
-			"li_",
+			"($size)",
+			"icon",
+			"$size",
+			"125px",
+			"icon ",
+			"icon",
+			"sprites",
+			"handset",
+			"span",
+			"sprite",
+			"ul",
 			"li",
-			"span",
-			"125px",
+			"ul",
 			"clear",
-			"D",
-			"td",
-			"div",
-			"table-pricing",
-			"h3",
-			"margin",
-			"padding",
-			"margin",
-			"{\n",
-			"About",
 			"icon",
-			"<i></i>",
-			"icon-shape",
-			"team",
-			"true",
-			"hr",
-			"193px",
-			"125px",
-			"icon",
-			"layout",
+			"li",
+			"20px",
+			"10",
 			"module",
-			"nbsp",
-			"section",
-			"base",
-			"se",
-			"section",
-			"skills",
+			"div",
+			"span",
+			"<span>",
+			"5px",
+			"a",
+			"About",
+			"about",
+			"right",
 			";\n",
-			"margin",
-			"\n@",
-			"</div>",
-			"<div>",
-			"h1",
-			"base",
-			"\";",
-			"class",
-			"section",
-			"h2",
-			"runSequence",
-			"autoprefixer",
-			"src",
-			"url",
-			"amazonaws",
-			"url",
-			"src",
-			"amazonaws",
-			"src",
-			"url",
-			"amazonaws",
-			"url",
-			"src",
-			"amazonaws",
-			"src",
-			"url",
-			"src",
-			"url",
-			"amazonaws",
-			"url",
-			"src",
-			"url",
-			"amazonaws",
-			"url",
-			"src",
-			"javascript",
-			"Helvetica",
-			"font",
-			"\"Merriweather\"",
-			"Her",
-			"slash",
-			"comment",
-			"\\",
-			"virtualbox"
+			"tweet",
+			"notifier",
+			"notify.",
+			"notify",
+			"span",
+			"div",
+			"span",
+			"p",
+			"span",
+			"button"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
-			"li_",
-			"About\n			Team\n			Services\n			Works\n			Blog\n			Contact",
-			"Merriweather",
-			"Verdana",
-			"Tahoma",
-			"\"Lucida Grande\"",
-			"\"Comic Sans MS\"",
-			"Impact",
-			"cursive",
-			"Geneva",
-			"Verdana",
-			"Helvetica",
-			""
+			"icon icon-",
+			"img",
+			"icon-cercle"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -750,175 +753,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14023,
+						"buffer_size": 25656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12428,
-								12428
+								4362,
+								4362
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
 							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1900.0,
+						"translation.x": -0.0,
+						"translation.y": 286.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
+					"file": "app/js/scroll.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 624,
+						"buffer_size": 2205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								281,
-								281
+								1758,
+								1758
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 78.0,
+						"translation.y": 1584.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -926,294 +812,33 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/js/app.js",
+					"file": "app/css/sass/module/_background.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								423,
-								423
+								35,
+								35
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"auto_indent": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2920,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1731,
-								1731
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1014.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/css/sass/layout/_work.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								744,
-								744
-							],
-							[
-								890,
-								890
-							],
-							[
-								966,
-								966
-							],
-							[
-								1025,
-								1025
-							],
-							[
-								1127,
-								1127
-							],
-							[
-								1309,
-								1309
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_indent": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1912.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1221,7 +846,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 56.0
 	},
 	"input":
 	{
@@ -1281,7 +906,211 @@
 		[
 			[
 				"app",
-				"app\\js\\app.js"
+				"js\\app.js"
+			],
+			[
+				"header",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"skew",
+				"css\\sass\\module\\_skew.scss"
+			],
+			[
+				"grid",
+				"css\\sass\\layout\\_grid.scss"
+			],
+			[
+				"",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"gri",
+				"css\\sass\\layout\\_grid.scss"
+			],
+			[
+				"skill",
+				"css\\sass\\layout\\_skills.scss"
+			],
+			[
+				"top",
+				"css\\sass\\module\\_top.scss"
+			],
+			[
+				"bas",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"base",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"prog",
+				"css\\sass\\module\\_progress.scss"
+			],
+			[
+				"progress",
+				"css\\sass\\module\\_progress.scss"
+			],
+			[
+				"ico",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"about",
+				"css\\sass\\layout\\_about.scss"
+			],
+			[
+				"hea",
+				"css\\sass\\module\\_heading.scss"
+			],
+			[
+				"ts",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"head",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"to",
+				"css\\sass\\module\\_top.scss"
+			],
+			[
+				"ic",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"blo",
+				"css\\sass\\layout\\_blog.scss"
+			],
+			[
+				"btn",
+				"css\\sass\\module\\_btn.scss"
+			],
+			[
+				"te",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"owl-",
+				"css\\sass\\module\\_owl-theme.scss"
+			],
+			[
+				"tes",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"wo",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				"i",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"ow",
+				"owl-carousel\\owl.theme.css"
+			],
+			[
+				"work",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				".js",
+				"js\\app.js"
+			],
+			[
+				"wor",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				"var",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"vari",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"foo",
+				"css\\sass\\layout\\_footer.scss"
+			],
+			[
+				"con",
+				"css\\sass\\layout\\_contact.scss"
+			],
+			[
+				"blog",
+				"css\\sass\\layout\\_blog.scss"
+			],
+			[
+				"team",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"clen",
+				"css\\sass\\layout\\_clients.scss"
+			],
+			[
+				"twee",
+				"css\\sass\\layout\\_tweet.scss"
+			],
+			[
+				"he",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"fa",
+				"css\\sass\\layout\\_fact.scss"
+			],
+			[
+				"v",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"ser",
+				"css\\sass\\layout\\_service.scss"
+			],
+			[
+				"ski",
+				"css\\sass\\layout\\_skills.scss"
+			],
+			[
+				"tam",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"va",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"s",
+				"css\\sass\\module\\_sprite.scss"
+			],
+			[
+				"ba",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"tea",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"sp",
+				"css\\sass\\module\\_sprite.scss"
+			],
+			[
+				"conta",
+				"css\\sass\\layout\\_contact.scss"
+			],
+			[
+				"nor",
+				"css\\sass\\base\\_normalize.scss"
+			],
+			[
+				"in",
+				"index.html"
 			],
 			[
 				"gu",
@@ -1296,32 +1125,12 @@
 				"Gulpfile.js"
 			],
 			[
-				"base",
-				"app\\css\\sass\\base\\_base.scss"
-			],
-			[
-				"grid",
-				"app\\css\\sass\\layout\\_grid.scss"
-			],
-			[
 				"test",
-				"app\\css\\sass\\layout\\_testimonial.scss"
-			],
-			[
-				"tes",
 				"app\\css\\sass\\layout\\_testimonial.scss"
 			],
 			[
 				"q",
 				"app\\css\\sass\\module\\_quote.scss"
-			],
-			[
-				"ico",
-				"app\\css\\sass\\module\\_icon.scss"
-			],
-			[
-				"he",
-				"app\\css\\sass\\layout\\_header.scss"
 			],
 			[
 				"font",
@@ -1336,24 +1145,8 @@
 				"app\\css\\sass\\module\\_sprite.scss"
 			],
 			[
-				"tea",
-				"app\\css\\sass\\layout\\_team.scss"
-			],
-			[
 				"gr",
 				"app\\css\\sass\\layout\\_grid.scss"
-			],
-			[
-				"btn",
-				"app\\css\\sass\\module\\_btn.scss"
-			],
-			[
-				"bas",
-				"app\\css\\sass\\base\\_base.scss"
-			],
-			[
-				"va",
-				"app\\css\\sass\\base\\_variables.scss"
 			],
 			[
 				"pr",
@@ -1364,20 +1157,8 @@
 				"app\\css\\sass\\layout\\_skills.scss"
 			],
 			[
-				"ic",
-				"app\\css\\sass\\module\\_icon.scss"
-			],
-			[
 				"se",
 				"app\\css\\sass\\layout\\_service.scss"
-			],
-			[
-				"fa",
-				"app\\css\\sass\\module\\_fact.scss"
-			],
-			[
-				"te",
-				"app\\css\\sass\\layout\\_team.scss"
 			],
 			[
 				"b",
@@ -1386,10 +1167,6 @@
 			[
 				"pro",
 				"app\\css\\sass\\module\\_progress.scss"
-			],
-			[
-				"i",
-				"app\\css\\sass\\module\\_icon.scss"
 			],
 			[
 				"ab",
@@ -1404,28 +1181,12 @@
 				"app\\css\\sass\\layout\\_header.scss"
 			],
 			[
-				"ba",
-				"app\\css\\sass\\base\\_base.scss"
-			],
-			[
-				"var",
-				"app\\css\\sass\\base\\_variables.scss"
-			],
-			[
 				"ap",
 				"app\\css\\sass\\app.scss"
 			],
 			[
-				"about",
-				"app\\css\\sass\\layout\\_about.scss"
-			],
-			[
 				"t",
 				"app\\css\\sass\\module\\_team.scss"
-			],
-			[
-				"gri",
-				"app\\css\\sass\\layout\\_grid.scss"
 			],
 			[
 				"icon",
@@ -1436,10 +1197,6 @@
 				"app\\css\\sass\\layout\\_header.scss"
 			],
 			[
-				"team",
-				"app\\css\\sass\\module\\_team.scss"
-			],
-			[
 				"qu",
 				"app\\css\\sass\\layout\\_quote.scss"
 			],
@@ -1448,28 +1205,12 @@
 				"app\\css\\sass\\base\\_background.scss"
 			],
 			[
-				"head",
-				"app\\css\\sass\\module\\_header.scss"
-			],
-			[
-				"",
-				"app\\css\\sass\\app.scss"
-			],
-			[
 				"gul",
 				"gulpfile.js"
 			],
 			[
-				"vari",
-				"app\\css\\sass\\base\\_variables.scss"
-			],
-			[
 				"inde",
 				"app\\index.html"
-			],
-			[
-				"in",
-				"node_modules\\browser-sync\\node_modules\\lodash\\lang\\isNative.js"
 			]
 		],
 		"width": 0.0
@@ -1485,12 +1226,24 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 51.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"back",
+				".back-to-top"
+			],
+			[
+				".container",
+				".container"
+			],
+			[
+				"client",
+				"clients"
+			]
 		],
-		"width": 0.0
+		"width": 374.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -1500,7 +1253,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 122.0,
+	"side_bar_width": 136.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

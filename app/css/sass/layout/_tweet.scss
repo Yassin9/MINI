@@ -1,0 +1,37 @@
+.tweet{
+	.wrap{
+		width: 822px;
+		margin: 0 auto;
+	}
+
+	p{
+		font-size: 22px;
+		line-height: 33px;
+		font-weight: 700;
+		color: $color;
+		a{
+			color: $primary-color;
+			text-decoration: none;
+		}
+	}
+
+	span{
+		color: #808080;
+		font-size: 15px;
+		line-height: 38px;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+}
+
+.icon-tweet{
+	@include icon-cercle(2, $color, 100);
+	margin-bottom: 15px;
+	line-height: 115px;
+}
+
+#Twitter{
+	fill:$primary-color;
+	width: 30px;
+}

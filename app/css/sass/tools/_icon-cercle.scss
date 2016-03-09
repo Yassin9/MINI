@@ -1,0 +1,9 @@
+@mixin icon-cercle($border-width, $color, $size ) {
+	border: #{$border-width}px solid $color;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: #{$size}px;
+	height: #{$size}px;
+	line-height: #{$size}px;
+}

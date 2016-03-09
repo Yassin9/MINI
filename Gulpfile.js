@@ -9,11 +9,11 @@ var gulp            = require('gulp'),
     spritesmith     = require('gulp.spritesmith'),
     notify          = require('gulp-notify'),
     gutil           = require('gulp-util'),
-    path            = require('path'),
-    htmlInjector    = require("bs-html-injector");
+    path            = require('path');
+    // htmlInjector    = require("bs-html-injector");
 
 
-//the title and icon that will be used for the Grunt notifications
+//the title and icon that will be used for the Gulp notifications
 var notifyInfo = {
     "title" : "Gulp",
     "icon"  : path.join(__dirname, "gulp.png")
@@ -46,16 +46,23 @@ var src = {
     js:   'app/js/*.js'
 };
 
+gulp.task('hello', function() {
+    gulp.src("./")
+      .pipe(notify({
+          'title': 'Hello Yassine',
+          'icon': path.join(__dirname, "gulp.png")
+        }));
+})
+
 gulp.task('sass', function() {
   return gulp.src(src.scss)
   	.pipe(plumber(plumberErrorHandler))
     .pipe(sourcemaps.init())
-    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(sass(sassOptions))
     .pipe(autoprefixer(autoprefixerOptions))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(src.css))
-    .pipe(browserSync.stream({match: '**/*.css'}))
-    .on('error', gutil.log);
+    .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 // Generating CSS sprites
@@ -82,8 +89,10 @@ gulp.task('img', function () {
         .pipe(gulp.dest('dist/img'));
 });
 
+
+
 gulp.task('browserSync', function() {
-  browserSync.use(htmlInjector, {files: "app/*.html"});
+  // browserSync.use(htmlInjector);
 
   browserSync.init({
     server: {
@@ -92,16 +101,12 @@ gulp.task('browserSync', function() {
   })
 })
 
-gulp.task('hello', function() {
-    console.log('Hello Yassine');
-})
-
 
 gulp.task('serve', ['browserSync', 'sass'], function() {
     gulp.watch(src.scss, ['sass']);
-    gulp.watch(src.html).on('change', htmlInjector);
-    gulp.watch(src.js).on('change', browserSync.reload);
+    gulp.watch(src.html, browserSync.reload);
+    gulp.watch(src.js, browserSync.reload);
     gulp.watch(['app/img/icon/*.png'], ['sprite']);
 });
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['hello', 'serve']);

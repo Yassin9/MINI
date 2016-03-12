@@ -13,6 +13,7 @@
     "bs-html-injector": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^2.4.0",
     "gulp-jade": "^1.1.0",
     "gulp-notify": "^2.2.0",

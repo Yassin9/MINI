@@ -47,7 +47,7 @@ var scene = new ScrollMagic.Scene({
 	triggerElement: ".about"
 })
 .setTween(tweenAbout)
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 // End of scene
 

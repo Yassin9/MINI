@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::selection{ color: #fff;	background: $primary-color; }
+
+body {
+	margin: 0;
+	padding: 0;
+	color: $text-color;
+	font-size: 16px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: $header-color;
+	font-weight: 700;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+p {
+	line-height: 28px;
+}
+
+a {
+	color: $color;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+		outline: none;
+	}
+
+	img {
+		border: 0px none;
+	}
+
+	&:active {
+		outline: none;
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: none;
+		outline-offset: 0px;
+		text-decoration: none;
+	}
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+hr {
+	margin: 120px 0;
+	background-color: #e6e6e6;
+	height: 2px;
+	border: none;
+}

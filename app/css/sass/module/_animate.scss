@@ -1,0 +1,18 @@
+/* =Simple animation up */
+.slideInUp {
+    .no-touch & {
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.7s ease-out;
+
+        transform: translate3d(0, 50px, 0);
+    }
+    .no-touch .is-active & {
+        visibility: visible;
+        opacity: 1;
+        
+        transform: translate3d(0, 0, 0);
+    }
+    &.slideInUp2{transition-delay: 0.2s;}
+    &.slideInUp3{transition-delay: 0.4s;}
+}

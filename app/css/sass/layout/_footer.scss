@@ -1,0 +1,27 @@
+footer{
+	text-align: left;
+	margin-bottom: 48px;
+	
+	span{
+		font-size: 14px;
+		color: $header-color;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	.social-media{
+		float: right;
+	}
+
+	&:before{
+		content: "";
+		background-color: #fff;
+		height: 50px;
+		width: 100%;
+		display: block;
+		transform: skewY(-2deg);
+		transform-origin: left 0;
+		position: relative;
+		z-index: 100;
+	}
+}

@@ -1,0 +1,31 @@
+.owl-carousel {
+  position: relative;
+
+  .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .owl-controls{
+
+    .owl-page{
+      display: inline-block;
+      span{
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin: 5px 2px;
+        opacity: 0.3;
+        border-radius: 15px;
+        background: #fff;
+        transition: opacity 0.3s;
+      }
+
+      span:hover{opacity: 1;}
+      
+    }
+    
+    .owl-page.active span{opacity: 1;}
+  }
+}

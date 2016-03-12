@@ -1,0 +1,63 @@
+// .background {
+// 	background: center 0 no-repeat;
+//     background-size: cover;
+// 	padding: 145px 0;
+// }
+
+// .header {
+//     background: url("../img/web/bg37.jpg") center 40% no-repeat;
+//     background-size: cover;
+// }
+
+// .quote {background-image: url("../img/bg.jpg");}
+
+
+.background {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    
+    .header & {
+        background-image: url("https://unsplash.it/1920/1080?image=122");
+    }
+
+    .quote & {
+        background-image: url("https://unsplash.it/1920/1080?image=56");
+    }
+
+    .facts & {
+         background-image: url("https://unsplash.it/1920/1080?image=556");
+    }
+
+    .testimonial & {
+        background-image: url("https://unsplash.it/1920/1080?image=243");
+    }
+
+    .tweet & {
+        background-image: url("https://unsplash.it/1920/1080?image=234");
+    }
+
+    .clients & {
+        background-image: url("https://unsplash.it/1920/1080?image=61");
+    }
+
+}
+
+.section-about,
+.section-team,
+.section-service,
+.section-work,
+.section-blog,
+.section-contact {background-color: #fff;}
+
+
+.break {
+    position: relative;
+    height: 540px;
+    padding-top: 120px;
+    background-color: rgba(0,0,0, 0.25);
+}

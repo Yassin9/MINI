@@ -1,0 +1,31 @@
+.wrap-progress {
+	width: 560px;
+	float: right;
+	margin-top: 20px;
+	}
+
+.progress-title {
+	color: $header-color;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+	
+	& strong {
+		font-weight: 600;
+	}
+	& span {
+		color: #bfbfbf;
+		font-weight: 400;
+	}
+}
+
+.progress-bar {
+	height: 10px;
+	background-color: #e6e6e6;
+	margin-bottom: 36px;
+	& span {
+		background-color: $primary-color;
+		height: 10px;
+		display: block;
+	}
+}

@@ -1,0 +1,39 @@
+.about {
+	text-align: left;
+}
+
+.about-content {
+  	position: relative;
+	margin-left: 155px;
+	width: 500px;
+	line-height: 28px;
+  	display: inline-block;
+  	vertical-align: top;
+  	
+  	span{
+  		position: absolute;
+  		margin-left: -155px;
+  	}
+  
+	h2 {
+		margin-top: -6px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	p:first-of-type {
+		color: #e74c3c;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.about-img {
+	position: relative;
+	float: right;
+	width: 450px;
+}

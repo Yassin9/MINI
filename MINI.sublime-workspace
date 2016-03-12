@@ -1,0 +1,1463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"T",
+				"TweenMax"
+			],
+			[
+				"trigg",
+				"triggerElement"
+			],
+			[
+				"com",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"co",
+				"comm-block	Comment - Block style comment"
+			],
+			[
+				"goog",
+				"googleMap"
+			],
+			[
+				"i",
+				"i	<i>"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"lab",
+				"label	Tag"
+			],
+			[
+				"la",
+				"label	<label>"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"tex",
+				"textarea	Tag"
+			],
+			[
+				"form",
+				"form	<form>"
+			],
+			[
+				"input",
+				"inputs	input - submit"
+			],
+			[
+				"inp",
+				"inputi	input - image"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"cl",
+				"click〔function〕"
+			],
+			[
+				"item",
+				"item.jpg	w:563 h:435"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
+				"vab",
+				"va-tb	vertical-align: text-bottom;"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"bxz",
+				"bxz:cb	box-sizing:content-box"
+			],
+			[
+				"bgi",
+				"bgi	background-image: url(${0});"
+			],
+			[
+				"logo",
+				"logo.png	w:32 h:32"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"tf",
+				"tfoot	Tag"
+			],
+			[
+				"t",
+				"tbody	<tbody>"
+			],
+			[
+				"the",
+				"thead	<thead>"
+			],
+			[
+				"ta",
+				"ta:le	text-align:left"
+			],
+			[
+				"v",
+				"va:t	vertical-align:top"
+			],
+			[
+				"di",
+				"d:ib	display:inline-block"
+			],
+			[
+				"blockquote",
+				"blockquote	Tag"
+			],
+			[
+				"blo",
+				"blockquote"
+			],
+			[
+				"pr",
+				"pos:r	position:relative"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"comm-",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"c",
+				"cl	clear"
+			],
+			[
+				"n",
+				"nbsp	&nbsp;"
+			],
+			[
+				"fw",
+				"fw	font-weight"
+			],
+			[
+				"section",
+				"section	<section>"
+			],
+			[
+				"ff",
+				"ff-a	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"plu",
+				"plumber"
+			],
+			[
+				"d",
+				"_docs/"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"sidebar",
+				"sidebar_two"
+			],
+			[
+				"box",
+				"box-sizing: 〔property〕"
+			],
+			[
+				"fu",
+				"funToggle"
+			],
+			[
+				"r",
+				"ready〔function〕"
+			],
+			[
+				"toggle",
+				"toggleIndex"
+			],
+			[
+				"var",
+				"var〔keyword〕"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"va",
+				"va:bl	vertical-align:baseline"
+			],
+			[
+				"media",
+				"media	Attr"
+			],
+			[
+				"links",
+				"links	link - stylesheet"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"background-s",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-attachment"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"sec",
+				"section	<section>"
+			],
+			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"bdrs",
+				"bdrs	border-radius"
+			],
+			[
+				"inputt",
+				"inputt	input - text"
+			],
+			[
+				"style",
+				"style.css"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 27045,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/sass/layout/_work.scss",
+			"settings":
+			{
+				"buffer_size": 1750,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/scroll.js",
+			"settings":
+			{
+				"buffer_size": 2303,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2417,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/sass/module/_background.scss",
+			"settings":
+			{
+				"buffer_size": 1295,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/sass/module/_animate.scss",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/sass/layout/_quote.scss",
+			"settings":
+			{
+				"buffer_size": 612,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 284.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pc",
+				"Package Control: Remove Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"synh",
+				"Set Syntax: HTML"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tside",
+				"View: Toggle Side Bar"
+			],
+			[
+				"synsass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"FindKeyConflicts",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"inp",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"instapa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syncss",
+				"Set Syntax: CSS"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"theme",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"comment",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"synht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"livereload",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"package ",
+				"Package Control: Disable Package"
+			],
+			[
+				"li",
+				"LiveReload: Self test"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"LiveReload: Enable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 645.0,
+		"history":
+		[
+			"cd C:/",
+			"cd C:\\",
+			"pwd",
+			"gulp",
+			"node-sass",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/MINI/app"
+	],
+	"file_history":
+	[
+		"/D/MINI/app/css/lightbox.css",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.783/README.md",
+		"/D/MINI/app/css/sass/layout/_team.scss",
+		"/D/MINI/app/css/sass/layout/_testimonial.scss",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/README.md",
+		"/D/MINI/app/css/sass/layout/_header.scss",
+		"/D/MINI/app/css/sass/layout/_quote.scss",
+		"/D/MINI/app/css/sass/module/_animate.scss",
+		"/D/MINI/app/js/app.js",
+		"/C/Users/Yassine/Desktop/Tubemat2/Mécanique Quantique/Mécanique Quantique 12 (les Opérateurs).mp4",
+		"/D/MINI/app/css/app.css",
+		"/D/MINI/Gulpfile.js",
+		"/D/MINI/app/css/sass/module/_skew.scss",
+		"/D/MINI/app/css/sass/layout/_grid.scss",
+		"/D/MINI/app/css/sass/app.scss",
+		"/D/MINI/app/css/sass/layout/_about.scss",
+		"/D/MINI/app/css/sass/module/_icon.scss",
+		"/D/MINI/app/css/sass/module/_heading.scss",
+		"/D/MINI/package.json",
+		"/D/MINI/node_modules/jpegtran-bin/package.json",
+		"/D/MINI/node_modules/jpegtran-bin/readme.md",
+		"/D/MINI/app/css/sass/base/_base.scss",
+		"/D/MINI/app/css/sass/layout/_skills.scss",
+		"/D/MINI/app/js/TweenLite.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.735/EasePack.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.190/EasePack.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.601/TweenLite.min.js",
+		"/D/MINI/app/css/sass/module/_top.scss",
+		"/D/MINI/app/css/sass/module/_progress.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.482/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.688/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DRa0.941/Parallex/index.html",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.389/default.js",
+		"/C/Users/Yassine/Desktop/HTML/js/script.js",
+		"/C/Users/Yassine/Desktop/HTML/js/ScrollToPlugin.min.js",
+		"/D/MINI/app/css/sass/module/_owl-theme.scss",
+		"/C/Users/Yassine/Downloads/WebDesign/Framework/animate.css",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/demo.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/lib/greensock/TimelineMax.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/lib/greensock/jquery.gsap.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/js/examples.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.962/ScrollToPlugin.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/scrollmagic/uncompressed/plugins/animation.gsap.js",
+		"/D/MINI/app/js/animation.gsap.min.js",
+		"/C/Users/Yassine/Desktop/simple-scrollmagic-tutorial/js/index.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/index.html",
+		"/D/MINI/app/js/TweenMax.min.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.666/jquery.gsap.min.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/gulpfile.js",
+		"/C/Users/Yassine/Desktop/janpaepke-ScrollMagic-b219000/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js",
+		"/C/Users/Yassine/Desktop/jquery.localScroll-1.4.0/demo/index.html",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/gulpfile.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-template-05/package.json",
+		"/C/Users/Yassine/Desktop/main.js",
+		"/C/Users/Yassine/Desktop/scrollmagic-demos-class-toggles/js/plugins/animation.gsap.min.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/init.js",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/themes/awesome-media-gallery/admin/application/views/mokoala-default/themes/matt_lowden/css/reset.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/themes/awesome-media-gallery/admin/application/views/mokoala-default/themes/amg/css/reset.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/wordpress/wp-content/plugins/masterslider/admin/views/slider-panel/css/reset.css",
+		"/H/Formation/Tuto English/Lynda/Lynda - Advanced Responsive Layouts with CSS Flexbox/Exercise Files/Chapter_06/06_final/CSS/reset.css",
+		"/C/Users/Yassine/Desktop/Plasma/HTML/js/jquery.scrollNav.js",
+		"/C/Users/Yassine/Desktop/jquery.localScroll-1.4.0/jquery.localScroll.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.236/jquery.localScroll.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.486/bower.json",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.793/README.md",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.633/package.json",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/ui-plugins.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/js/helper-plugins.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/index.html",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/style.css",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.991/main.js",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/animations.css",
+		"/C/Users/Yassine/Desktop/html/born-to-give/css/custom.css",
+		"/D/MINI/app/css/sass/layout/_blog.scss",
+		"/D/MINI/app/css/sass/module/_btn.scss",
+		"/D/MINI/app/css/sass/layout/_work.scss",
+		"/D/MINI/app/owl-carousel/owl.carousel.js",
+		"/C/Users/Yassine/Desktop/owl.carousel/owl-carousel/owl.transitions.css",
+		"/C/Users/Yassine/Desktop/owl.carousel/demos/one.html",
+		"/D/MINI/app/owl-carousel/owl.carousel.css",
+		"/D/MINI/app/css/sass/tools/Owl Carousel/_theme.scss",
+		"/C/Users/Yassine/Desktop/owl.carousel/owl-carousel/owl.carousel.js",
+		"/D/MINI/app/img/chevron-right.svg",
+		"/C/Users/Yassine/Desktop/owl.carousel/assets/js/application.js",
+		"/D/MINI/app/css/sass/module/_map.scss",
+		"/D/MINI/app/css/sass/base/_variables.scss",
+		"/D/MINI/app/css/sass/layout/_footer.scss",
+		"/C/Users/Yassine/Desktop/Ghost/package.json",
+		"/D/MINI/app/css/sass/layout/_contact.scss",
+		"/D/MINI/app/css/sass/module/_sprite.scss",
+		"/D/MINI/app/css/sass/layout/_clients.scss",
+		"/D/MINI/app/css/sass/tools/_icon-cercle.scss",
+		"/D/MINI/app/css/sass/layout/_tweet.scss",
+		"/C/Users/Yassine/Desktop/Ghost/README.md",
+		"/D/MINI/app/index.html",
+		"/C/Users/Yassine/Desktop/vagrant/README.md",
+		"/D/MINI/app/css/sass/layout/_service.scss",
+		"/D/MINI/app/css/sass/layout/_fact.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.317/_transition.scss",
+		"/D/MINI/app/css/sass/module/_forms.scss",
+		"/D/MINI/app/css/sass/base/_normalize.scss",
+		"/D/MINI/app/d",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.968/README.md",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/Yassine/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/D/MINI/app/css/sass/module/_tweet.scss",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.992/README.md",
+		"/D/MINI/node_modules/gulp-notify/examples/gulpfile.js",
+		"/D/MINI/node_modules/gulp-notify/examples/jshint.js",
+		"/D/MINI/node_modules/node-notifier/test/terminal-notifier.js",
+		"/D/MINI/node_modules/node-notifier/notifiers/notificationcenter.js",
+		"/D/MINI/node_modules/node-notifier/notifiers/notifysend.js",
+		"/D/MINI/node_modules/node-notifier/example/message.js",
+		"/D/MINI/node_modules/node-notifier/example/advanced.js",
+		"/C/Users/Yassine/Desktop/HTML/odra_agency_multipage/tf_odra_v1.3/odra_portfolio/scripts/all.js",
+		"/D/MINI/MINI.sublime-project",
+		"/C/Users/Yassine/Desktop/HTML/rhythm_v232/www/js/all.js",
+		"/C/Users/Yassine/Desktop/HTML/rhythm_v232/www/index.html",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.746/owl.carousel.js",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.765/CONTRIBUTING.markdown",
+		"/C/Users/Yassine/AppData/Local/Temp/Rar$DIa0.729/README.markdown",
+		"/C/Users/Yassine/Desktop/grayscale-sass/config.rb",
+		"/C/Users/Yassine/Desktop/grayscale-sass/Gulpfile.js",
+		"/C/Users/Yassine/Desktop/Semantic-UI-Docs-master/README.md",
+		"/C/Users/Yassine/Desktop/Jade Compass Coffee/Gulpfile.js",
+		"/C/Users/Yassine/Desktop/Semantic-UI-Docs-master/out/dist/components/reset.css"
+	],
+	"find":
+	{
+		"height": 57.0
+	},
+	"find_in_files":
+	{
+		"height": 139.0,
+		"where_history":
+		[
+			"D:\\MINI\\app\\owl-carousel",
+			"C:\\Users\\Yassine\\Desktop\\MINI\\app",
+			"C:\\Users\\Yassine\\Desktop\\MINI\\app\\css\\sass",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../img/web/bg51.jpg",
+			"img/post-img.png",
+			"post",
+			"images",
+			"image",
+			"images",
+			"<a href=\"https://unsplash.it/1170/580?image=6\" data-lightbox=\"roadtrip\">",
+			"<div class=\"work-item mix video\">",
+			"<div class=\"work-item mix webdesign\">",
+			"<div class=\"work-item mix branding\">",
+			"<div class=\"work-item mix graphics\">",
+			"<div class=\"work-item mix photography\">",
+			"1170/580",
+			"292/220",
+			"mixitup",
+			"img/Rectangle87.png",
+			"img/Rectangle87-copy.png",
+			"img/img.png",
+			"img.png",
+			"Ellipse-9.png",
+			"src",
+			"255",
+			"35",
+			"37",
+			"section-",
+			"Section-",
+			"section-",
+			"Section-",
+			"section-",
+			"../img/img_mountains01.jpg",
+			"bg",
+			"background ",
+			"background",
+			"1050px",
+			".background",
+			"bcg",
+			"slide",
+			"breakSections",
+			"section",
+			"header",
+			"skills",
+			"Skills",
+			"TweenMax",
+			"TweenLite",
+			"ease:Power1.easeNone",
+			"id",
+			"script",
+			"css",
+			"to",
+			"triggerHook",
+			"tween",
+			"1",
+			"50",
+			"20",
+			"min",
+			"owl-slider",
+			"owl-carousel",
+			".scrollToTop",
+			"sticky",
+			"back-to-top",
+			"cross",
+			"module",
+			"dot",
+			"owl",
+			"grabbing",
+			"grabbing.png",
+			"app.css",
+			"css/",
+			"css",
+			"\" + email + \"",
+			"marker",
+			"locations",
+			"email",
+			"layout",
+			"pinterest",
+			"linkedin",
+			"team",
+			"initialize",
+			"icon-",
+			"span",
+			"location",
+			"handset",
+			"clien",
+			"Rectangle 136",
+			"span",
+			"_hover",
+			"google_hover",
+			"face",
+			"icon ",
+			"icon",
+			"($size)",
+			"icon",
+			"$size",
+			"125px",
+			"icon ",
+			"icon",
+			"sprites",
+			"handset",
+			"span",
+			"sprite",
+			"ul",
+			"li",
+			"ul",
+			"clear",
+			"icon",
+			"li",
+			"20px",
+			"10",
+			"module",
+			"div",
+			"span",
+			"<span>",
+			"5px",
+			"a",
+			"About",
+			"about",
+			"right",
+			";\n",
+			"tweet",
+			"notifier",
+			"notify.",
+			"notify",
+			"span",
+			"div",
+			"span",
+			"p",
+			"span",
+			"button"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"background",
+			"",
+			"icon icon-",
+			"img",
+			"icon-cercle"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21146,
+								21146
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/css/sass/layout/_work.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1326,
+								1326
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1789.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/js/scroll.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1215,
+								1215
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/css/sass/module/_background.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/css/sass/module/_animate.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/css/sass/layout/_quote.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 56.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 132.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "MINI.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"js\\app.js"
+			],
+			[
+				"wo",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				"tes",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"tea",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"ani",
+				"css\\sass\\module\\_animate.scss"
+			],
+			[
+				"hea",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"qu",
+				"css\\sass\\layout\\_quote.scss"
+			],
+			[
+				"heade",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"team",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"q",
+				"css\\sass\\layout\\_quote.scss"
+			],
+			[
+				"header",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"skew",
+				"css\\sass\\module\\_skew.scss"
+			],
+			[
+				"grid",
+				"css\\sass\\layout\\_grid.scss"
+			],
+			[
+				"",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"gri",
+				"css\\sass\\layout\\_grid.scss"
+			],
+			[
+				"skill",
+				"css\\sass\\layout\\_skills.scss"
+			],
+			[
+				"top",
+				"css\\sass\\module\\_top.scss"
+			],
+			[
+				"bas",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"base",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"prog",
+				"css\\sass\\module\\_progress.scss"
+			],
+			[
+				"progress",
+				"css\\sass\\module\\_progress.scss"
+			],
+			[
+				"ico",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"about",
+				"css\\sass\\layout\\_about.scss"
+			],
+			[
+				"ts",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"head",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"to",
+				"css\\sass\\module\\_top.scss"
+			],
+			[
+				"ic",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"blo",
+				"css\\sass\\layout\\_blog.scss"
+			],
+			[
+				"btn",
+				"css\\sass\\module\\_btn.scss"
+			],
+			[
+				"te",
+				"css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"owl-",
+				"css\\sass\\module\\_owl-theme.scss"
+			],
+			[
+				"i",
+				"css\\sass\\module\\_icon.scss"
+			],
+			[
+				"ow",
+				"owl-carousel\\owl.theme.css"
+			],
+			[
+				"work",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				".js",
+				"js\\app.js"
+			],
+			[
+				"wor",
+				"css\\sass\\layout\\_work.scss"
+			],
+			[
+				"var",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"vari",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"foo",
+				"css\\sass\\layout\\_footer.scss"
+			],
+			[
+				"con",
+				"css\\sass\\layout\\_contact.scss"
+			],
+			[
+				"blog",
+				"css\\sass\\layout\\_blog.scss"
+			],
+			[
+				"clen",
+				"css\\sass\\layout\\_clients.scss"
+			],
+			[
+				"twee",
+				"css\\sass\\layout\\_tweet.scss"
+			],
+			[
+				"he",
+				"css\\sass\\layout\\_header.scss"
+			],
+			[
+				"fa",
+				"css\\sass\\layout\\_fact.scss"
+			],
+			[
+				"v",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"ser",
+				"css\\sass\\layout\\_service.scss"
+			],
+			[
+				"ski",
+				"css\\sass\\layout\\_skills.scss"
+			],
+			[
+				"tam",
+				"css\\sass\\layout\\_team.scss"
+			],
+			[
+				"va",
+				"css\\sass\\base\\_variables.scss"
+			],
+			[
+				"s",
+				"css\\sass\\module\\_sprite.scss"
+			],
+			[
+				"ba",
+				"css\\sass\\base\\_base.scss"
+			],
+			[
+				"sp",
+				"css\\sass\\module\\_sprite.scss"
+			],
+			[
+				"conta",
+				"css\\sass\\layout\\_contact.scss"
+			],
+			[
+				"nor",
+				"css\\sass\\base\\_normalize.scss"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"gu",
+				"Gulpfile.js"
+			],
+			[
+				"ind",
+				"app\\index.html"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			],
+			[
+				"test",
+				"app\\css\\sass\\layout\\_testimonial.scss"
+			],
+			[
+				"font",
+				"app\\css\\sass\\tools\\_font-icon.scss"
+			],
+			[
+				"f",
+				"app\\css\\sass\\tools\\_font-icon.scss"
+			],
+			[
+				"sprit",
+				"app\\css\\sass\\module\\_sprite.scss"
+			],
+			[
+				"gr",
+				"app\\css\\sass\\layout\\_grid.scss"
+			],
+			[
+				"pr",
+				"app\\css\\sass\\layout\\_pricing.scss"
+			],
+			[
+				"sk",
+				"app\\css\\sass\\layout\\_skills.scss"
+			],
+			[
+				"se",
+				"app\\css\\sass\\layout\\_service.scss"
+			],
+			[
+				"b",
+				"app\\css\\sass\\base\\_base.scss"
+			],
+			[
+				"pro",
+				"app\\css\\sass\\module\\_progress.scss"
+			],
+			[
+				"ab",
+				"app\\css\\sass\\layout\\_about.scss"
+			],
+			[
+				"fon",
+				"app\\css\\sass\\tools\\_font-icon.scss"
+			],
+			[
+				"ha",
+				"app\\css\\sass\\layout\\_header.scss"
+			],
+			[
+				"ap",
+				"app\\css\\sass\\app.scss"
+			],
+			[
+				"t",
+				"app\\css\\sass\\module\\_team.scss"
+			],
+			[
+				"icon",
+				"app\\css\\sass\\module\\_icon.scss"
+			],
+			[
+				"h",
+				"app\\css\\sass\\layout\\_header.scss"
+			],
+			[
+				"backg",
+				"app\\css\\sass\\base\\_background.scss"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 51.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"back",
+				".back-to-top"
+			],
+			[
+				".container",
+				".container"
+			],
+			[
+				"client",
+				"clients"
+			]
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 136.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

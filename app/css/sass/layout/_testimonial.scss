@@ -1,0 +1,37 @@
+.testimonial{
+	
+	h2 {
+		font-size: 24px;
+		font-weight: 700;
+		color: $color;
+		&:after {
+		    content: "";
+		    margin: 0 auto;
+		    display: block;
+		    width: 50px;
+		    height: 4px;
+		    margin-top: 18px;
+		    background-color: #f39c12;
+	    }
+	}
+
+	p {
+		font-size: 22px;
+		font-weight: 300;
+		font-style: italic;
+		line-height: 30px;
+		color: $color;
+		width: 850px;
+		margin: 30px auto;
+	}
+
+	#owl-testimonial div img {
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		margin-bottom: 28px;
+		border: 2px solid #fff;
+		border-radius: 50%;
+	}
+}
+

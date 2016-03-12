@@ -1,0 +1,18 @@
+#back-to-top{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	right: 20px;
+	bottom: 15px;
+	z-index: 1000;
+	border: 2px solid $primary-color;
+	border-radius: 35px;
+	transition-duration: 0.4s;
+	opacity: 0.7;
+	text-align: center;
+
+	&:hover{
+		background-color: $primary-color;
+		opacity: 1;
+	}
+}

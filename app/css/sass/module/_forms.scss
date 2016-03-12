@@ -1,0 +1,35 @@
+form{
+  font-size: 15px;
+  line-height: 26px;
+  color: #808080;
+}
+
+input,
+textarea{
+  border: 2px solid #D9D9D9;
+  width: 620px;
+  margin-bottom: 10px;
+  padding: 7px 7px 7px 26px;
+  transition-duration: 0.5s;
+  
+  &:focus{border-color: $primary-color;}
+  &:focus + .icon-form{color: $primary-color;}
+}
+
+textarea{
+  height: 125px;
+  resize: none;
+}
+
+::placeholder{color: #808080;}
+
+input[type="submit"],.submit{
+  background-color: transparent;
+  width: auto;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $header-color;
+  padding: 7px 40px;
+  margin-top: 10px;
+}

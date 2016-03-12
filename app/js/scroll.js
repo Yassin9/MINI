@@ -62,9 +62,10 @@ var scene = new ScrollMagic.Scene({
 	triggerElement: ".skills"
 })
 .setTween(tweenSkills)
-.addIndicators()
 .addTo(controller);
 // End of scene
+
+
 
 // build scene background
 var headerScene = new ScrollMagic.Scene({
@@ -73,7 +74,6 @@ var headerScene = new ScrollMagic.Scene({
         duration: "100%"
     })
     .setTween(TweenMax.to( ".header", 1, {backgroundPosition: "center 0%"} ))
-    .addIndicators({name:"header"})
     .addTo(controller);
 // End of scene
 
@@ -87,11 +87,8 @@ background.forEach(function (bg, i) {
 
     var headerScene = new ScrollMagic.Scene({
         triggerElement: bg,
-        triggerHook: 0.75,
-        duration: "100%"
     })
-    .setTween(TweenMax.to( bg, 1, {backgroundPosition: "center 400px"} ))
-    .addIndicators({name:"background"})
+    .setClassToggle("quote", 'is-active')
     .addTo(controller);
     
 });

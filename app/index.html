@@ -8,12 +8,17 @@
   <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <!-- <link rel="stylesheet" href="owl-carousel/owl.theme.css"> -->
   <!-- <link rel="stylesheet" href="owl-carousel/owl.transitions.css"> -->
+
+  <script type="js/modernizr-touch.js"></script>
+
 </head>
 <body>
 
   <header class="header" id="top">
+    <div class="background"></div>
     <div class="container"> 
       <a href="#" class="header-logo">mini</a>
       <nav id="menu">
@@ -28,10 +33,10 @@
       <div class="clear"></div>
 
       <div class="banner">
-        <div class="banner-light   animated bounceInLeft" >Best Creative Studio</div>
-        <div class="banner-bold    animated bounceInUp">Design / Branding / WordPress</div>
-        <div class="banner-light-2 animated bounceInRight" >We Make Great Ideas Happen</div>
-        <a href="#" class="btn btn-header">learn more</a>
+        <div class="banner-light   slideInUp" >Best Creative Studio</div>
+        <div class="banner-bold    slideInUp slideInUp2">Design / Branding / WordPress</div>
+        <div class="banner-light-2 slideInUp" >We Make Great Ideas Happen</div>
+        <a href="#" class="btn btn-header slideInUp slideInUp3">learn more</a>
       </div> <!-- Banner -->
 
     </div> <!-- container -->
@@ -54,7 +59,7 @@
           <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
         </div><!-- about-content -->
         
-        <div class="about-img"><img src="img/img.svg" alt=""></div>
+        <div class="about-img"><img src="https://unsplash.it/450/254?image=0" alt=""></div>
 
       </div><!-- about -->
       
@@ -105,12 +110,15 @@
     </div> <!-- container -->
   </section> <!-- About -->
 
-  <section class="background quote">
+  <section class="break quote" id="quote">
+
+    <div class="background"></div>
+
     <div class="container">
-      <blockquote>
+      <blockquote class="slideInUp">
         Simplicity is about subtracting the obvious and adding the meaningful
       </blockquote>
-      <cite>John Maeda</cite>
+      <cite class="slideInUp slideInUp2">John Maeda</cite>
     </div>
   </section> <!-- quote -->
 
@@ -124,7 +132,7 @@
 
       <div class="teams">
         <div class="team">
-          <div class="img-team"><img src="img/Ellipse.png" alt=""></div>
+          <div class="img-team"><img src="img/men1.jpg" alt=""></div>
           <h3>john Doe</h3>
           <span>Founder</span>
           <hr>
@@ -138,7 +146,7 @@
           </div>
         </div> <!-- team -->
         <div class="team">
-          <div class="img-team"><img src="img/Ellipse.png" alt=""></div>
+          <div class="img-team"><img src="img/women2.jpg" alt=""></div>
           <h3>Jesmine Doe</h3>
           <span>Designer</span>
           <hr>
@@ -152,7 +160,7 @@
           </div>
         </div> <!-- team -->
         <div class="team">
-          <div class="img-team"><img src="img/Ellipse.png" alt=""></div>
+          <div class="img-team"><img src="img/men2.jpg" alt=""></div>
           <h3>Martin Doe</h3>
           <span>Developer</span>
           <hr>
@@ -166,7 +174,7 @@
           </div>
         </div> <!-- team -->
         <div class="team">
-          <div class="img-team"><img src="img/Ellipse.png" alt=""></div>
+          <div class="img-team"><img src="img/women1.jpg" alt=""></div>
           <h3>Anthony Doe</h3>
           <span>Photographer</span>
           <hr>
@@ -184,7 +192,10 @@
     </div> <!-- container -->
   </section> <!-- section team -->
 
-  <section class="background facts">
+  <section class="break facts">
+
+    <div class="background"></div>
+
     <div class="container">
       <div class="fact">
         <span class="icon-cercle li_cup"></span>
@@ -297,24 +308,27 @@
     </div> <!-- container -->
   </section> <!-- Section-Service -->
 
-  <section class="background testimonial">
+  <section class="break testimonial">
+    
+    <div class="background"></div>
+
     <div class="container">
       
       <div id="owl-testimonial" class="owl-slider">
         <div>
           <h2>Maria Jones</h2>
           <p>“ Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-          <img src="img/Ellipse-9.png" alt="">
+          <img src="img/men2.jpg" alt="">
         </div>
         <div>
           <h2>Maria Jones</h2>
           <p>“ Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-          <img src="img/Ellipse-9.png" alt="">
+          <img src="img/women2.jpg" alt="">
         </div>
         <div>
           <h2>Maria Jones</h2>
           <p>“ Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-          <img src="img/Ellipse-9.png" alt="">
+          <img src="img/men1.jpg" alt="">
         </div>
       </div> <!-- carousel -->
 
@@ -331,9 +345,9 @@
 
       <div class="work-slider">
         <div id="owl-slider" class="owl-carousel">
-          <div class="item"><img src="img/img.png" alt=""></div>
-          <div class="item"><img src="img/img.png" alt=""></div>
-          <div class="item"><img src="img/img.png" alt=""></div>
+          <div class="item"><img src="https://unsplash.it/g/1170/580" alt=""></div>
+          <div class="item"><img src="https://unsplash.it/1170/580?image=15" alt=""></div>
+          <div class="item"><img src="https://unsplash.it/1170/580?image=100" alt=""></div>
         </div> 
         <div class="nav-slider">
           <a class="prev"><span class="icon chevron-left"></span></a>
@@ -361,77 +375,78 @@
 
         <div id="work-grid" class="work-grid">
 
-          <a href="#" class="work-item mix graphics">
+          <a href="https://unsplash.it/1170/580?image=5" data-lightbox="image-1" data-title="Graphics" class="work-item mix graphics">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/item.jpg" alt="">
+              <img src="https://unsplash.it/292/220?image=5" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Graphics</span>
           </a>
 
-          <div class="work-item mix photography">
+          <a href="https://unsplash.it/1170/580?image=968" data-lightbox="roadtrip" data-title="Photography" class="work-item mix photography">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87-copy.png" alt="">
+              <img src="https://unsplash.it/292/220?image=968" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Photography</span>
-          </div>
+          </a>
+          
 
-          <div class="work-item mix branding">
+          <a href="https://unsplash.it/1170/580?image=1025" data-lightbox="roadtrip" data-title="Branding" class="work-item mix branding">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87.png" alt="">
+              <img src="https://unsplash.it/292/220?image=1025" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Branding</span>
-          </div>
+          </a>
 
-          <div class="work-item mix graphics">
+          <a href="https://unsplash.it/1170/580?image=1010" data-lightbox="roadtrip" data-title="Graphics" class="work-item mix graphics">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87-copy.png" alt="">
+              <img src="https://unsplash.it/292/220?image=1010" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Graphics</span>
-          </div>
+          </a>
 
-          <div class="work-item mix webdesign">
+          <a href="https://unsplash.it/1170/580?image=4" data-lightbox="roadtrip" data-title="WebDesign" class="work-item mix webdesign">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87.png" alt="">
+              <img src="https://unsplash.it/292/220?image=4" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>WebDesign</span>
-          </div>
+          </a>
 
-          <div class="work-item mix video">
+          <a href="https://unsplash.it/1170/580?image=998" data-lightbox="roadtrip" data-title="Video" class="work-item mix video">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87-copy.png" alt="">
+              <img src="https://unsplash.it/292/220?image=998" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Video</span>
-          </div>
+          </a>
 
-          <div class="work-item mix photography">
+          <a href="https://unsplash.it/1170/580?image=947" data-lightbox="roadtrip" data-title="Photography" class="work-item mix photography">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87.png" alt="">
+              <img src="https://unsplash.it/292/220?image=947" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Photography</span>
-          </div>
+          </a>
 
-          <div class="work-item mix branding">
+          <a href="https://unsplash.it/1170/580?image=11" data-lightbox="roadtrip" data-title="Branding" class="work-item mix branding">
             <div class="work-img">
               <div class="layer-img"></div>
-              <img src="img/Rectangle87-copy.png" alt="">
+              <img src="https://unsplash.it/292/220?image=11" alt="">
             </div>
             <h3>project Title Here</h3>
             <span>Branding</span>
-          </div>
+          </a>
 
         </div> <!-- grid -->
       </div> <!-- work-gallery -->
@@ -439,7 +454,10 @@
     </div> <!-- container -->
   </section> <!-- Section-work -->
 
-  <section class="background tweet">
+  <section class="break tweet">
+
+    <div class="background"></div>
+
     <div class="container">
       <div class="wrap">
         <div class="icon-tweet">
@@ -471,7 +489,7 @@
       <div class="posts">
 
         <div class="post">
-          <img src="img/post-img.png" alt="">
+          <img src="https://unsplash.it/555/300?image=52" alt="">
 
           <div class="post-content">
             <div class="post-category">
@@ -489,7 +507,7 @@
         </div> <!-- post -->
 
         <div class="post">
-          <img src="img/post-img.png" alt="">
+          <img src="https://unsplash.it/555/300?image=61" alt="">
           <div class="post-content">
             <div class="post-category">
               <span class="icon icon-slideshow"></span>
@@ -502,7 +520,7 @@
         </div> <!-- post -->
        
         <div class="post">
-          <img src="img/post-img.png" alt="">
+          <img src="https://unsplash.it/555/300?image=230" alt="">
           <div class="post-content">
             <div class="post-category">
               <span class="icon icon-film"></span>
@@ -515,7 +533,7 @@
         </div> <!-- post -->
 
         <div class="post">
-          <img src="img/post-img.png" alt="">
+          <img src="https://unsplash.it/555/300?image=41" alt="">
           <div class="post-content">
             <div class="post-category">
               <span class="icon icon-handset"></span>
@@ -532,7 +550,8 @@
     </div> <!-- container -->
   </section> <!-- blog -->
 
-  <section class="background clients">
+  <section class="break clients">
+    <div class="background"></div>
     <div class="container">
       <div class="wrap">
         <h2>Our Clients</h2>
@@ -625,6 +644,7 @@
 
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
   
   <script src="js/app.js"></script>
   <script src="js/scroll.js"></script>

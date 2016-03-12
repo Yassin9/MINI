@@ -79,7 +79,12 @@
     transition-duration: 0.3s;
   }
 
-  span{color: #8c8c8c;}
+  span{
+    color: #8c8c8c;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: capitalize;
+  }
 }
 
 .work-img{

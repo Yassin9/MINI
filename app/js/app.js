@@ -46,9 +46,7 @@ $(document).ready(function() {
 		hash:true
 	});
 
-
 });
-
 
 // Google Maps
 

@@ -103,7 +103,7 @@ gulp.task('browserSync', function() {
 })
 
 gulp.task('deploy', function() {
-  return gulp.src('./app/**/*')
+  return gulp.src('./**/*')
     .pipe(ghPages());
 });
 

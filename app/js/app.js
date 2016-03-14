@@ -46,9 +46,43 @@ $(document).ready(function() {
 		hash:true
 	});
 
+	// fixed Menu on scroll
+	
+	$(window).scroll(function () {
+	    if ($(window).scrollTop() > 50) {
+	        $('.navbar').addClass('fixed');
+	    } else {
+	        $('.navbar').removeClass('fixed');
+	    }
+	});
+
+	// scollspy
+	
+	var sections = [];
+	var $navbar = $('.menu');
+	var $navbara = $('a', $navbar);
+
+	$navbara.each(function(){
+	    sections.push($($(this).attr('href')));
+	});
+
+	$(window).scroll(function(e){ 
+	    var scrollTop = $(this).scrollTop() + ($(window).height() / 2);
+	    
+	    for(var i in sections){
+	      var section = sections[i];
+	      if (scrollTop > section.offset().top) {
+	        scrolled_id = section.attr('id');
+	      }
+	    }
+		$navbara.removeClass('current');
+		$('a[href="#' + scrolled_id + '"]', $navbar).addClass('current');
+	});
+
+
+
 
 });
-
 
 // Google Maps
 

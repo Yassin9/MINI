@@ -9,6 +9,7 @@ var gulp            = require('gulp'),
     spritesmith     = require('gulp.spritesmith'),
     notify          = require('gulp-notify'),
     gutil           = require('gulp-util'),
+    ghPages         = require('gulp-gh-pages'),
     path            = require('path');
     // htmlInjector    = require("bs-html-injector");
 
@@ -101,6 +102,10 @@ gulp.task('browserSync', function() {
   })
 })
 
+gulp.task('deploy', function() {
+  return gulp.src('./**/*')
+    .pipe(ghPages());
+});
 
 gulp.task('serve', ['browserSync', 'sass'], function() {
     gulp.watch(src.scss, ['sass']);

@@ -34,4 +34,5 @@ node_modules
 
 dist
 src
-
+*.sublime-project
+*.sublime-workspace

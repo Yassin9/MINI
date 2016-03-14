@@ -7,37 +7,6 @@ $(document).ready(function() {
 var controller = new ScrollMagic.Controller();
 
 // build tween
-// var tweenfadeUp = new TweenMax.from(
-// 				".fadeUp", 0.5, {
-// 				top: 200,
-// 				opacity: 0,
-// 				scale: 0.5,
-// 				ease:Power1.easeNone
-// 				});
-
-// var tweenfadeDown = new TweenMax.from(
-// 				".fadeDown", 1, {
-// 				bottom: 200,
-// 				opacity: 0,
-// 				scale: 0.5,
-// 				ease:Power1.easeNone
-// 				});
-
-// var tweenfadeLeft = new TweenMax.from(
-// 				".fadeLeft", 1, {
-// 				left: 200,
-// 				opacity: 0,
-// 				scale: 0.5,
-// 				ease:Power1.easeNone
-// 				});
-
-// var tweenfadeRight = new TweenMax.from(
-// 				".fadeRight", 1, {
-// 				right: 200,
-// 				opacity: 0,
-// 				scale: 0.5,
-// 				ease:Power1.easeNone
-// 				});
 
 
 // build scene about
@@ -47,7 +16,6 @@ var scene = new ScrollMagic.Scene({
 	triggerElement: ".about"
 })
 .setTween(tweenAbout)
-// .addIndicators()
 .addTo(controller);
 // End of scene
 
@@ -96,4 +64,20 @@ background.forEach(function (bg, i) {
 // End of scene
 
 /*=====  End of Section ScrollMagic	   ======*/
+
+
+
+var count = new ScrollMagic.Scene({
+    triggerElement: ".facts",
+    triggerHook: 0.25
+}).on("enter", function (e) {
+    $('.counter').countTo({
+        speed: 1500,         
+        refreshInterval: 50});  
+})
+.addTo(controller);
+
+
+
+
 });

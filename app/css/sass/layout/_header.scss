@@ -1,11 +1,6 @@
 .header {
 	position: relative;
 	background-color: rgba(0,0,0, 0.25);
-	
-	.container{
-		padding-top: 40px;
-		padding-bottom: 100px;
-	}
 }
 
 .header-logo {
@@ -17,24 +12,74 @@
 	color: $color;
 }
 
-#menu {
-	margin-bottom: 0px;
+.navbar {
+	padding-top: 30px;
+
+	.wraper{
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.menu {
 	float: right;
-  	margin-top: 60px;
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: -0.06em;
+	transition-duration: .3s;
+	margin: 0 -76px;
+  	margin-top: 60px;
+  	color: #FFF;
+
 	.menu-item {
-		transition-duration: .4s;
+		transition-duration: .3s;
+		margin: 0 38px;
+		
 		&:hover {
 			color: $header-color;
 		}
-		&:first-child:before { display: none; }
+		
+	}
+}
+
+.current {
+	padding-bottom: 5px;
+	border-bottom: 2px solid $primary-color;
+	transition-duration: .3s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	z-index: 9999;
+	background-color: #FFF;
+	border-bottom: 1px solid gainsboro;
+	margin-top: 0px;
+	padding-top: 5px;
+	
+	.header-logo {
+		@include icon-cercle(2, $header-color, 70);
+		font-size: 19px;
+		color: $header-color;
+	}
+	
+	.menu {
+		margin: 0 -76px;
+		margin-top: 20px;
+		color: $header-color;
+	}
+
+	.menu-item{
+		color: $header-color;
+		margin: 0 38px;
+
+		&:hover { color: $primary-color; }
+
 		&:before {
-			padding: 0 38px;
-			content: "//";
-			color: $color;
+			color: #000;
 		}
 	}
 }

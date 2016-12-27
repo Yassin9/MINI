@@ -1,3 +1,3 @@
 # MINI
 
-http://yassinealouane.github.io/MINI/app/
+http://yassin9.github.io/MINI/app/
